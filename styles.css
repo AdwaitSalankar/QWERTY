@@ -278,6 +278,22 @@ body {
     border-radius: 15px;
 }
 
+@media (max-width: 600px) {
+    .popup-contenthow {
+        background-color: #1c1c1c;
+        margin: 20% auto;
+        padding: 20px;
+        border: 1px solid #1c1c1c;
+        width: 100%;
+        max-width: 70vw;
+        position: relative;
+        text-align: left;
+        color: white;
+        font-family:'Lucida Bright';
+        border-radius: 15px;
+    }
+}
+
 .close-buttonhow {
     color: #aaa;
     float: right;
