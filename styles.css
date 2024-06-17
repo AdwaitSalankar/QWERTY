@@ -321,23 +321,20 @@ body {
 }
 
 .popup-contentFinal {
-    background-color: #1c1c1c;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #1c1c1c;
-    width: 100%;
-    max-width: 450px;
-    position: relative;
-    text-align: center;
-    color: white;
-    font-family:'Arial, sans-serif';
-    border-radius: 15px;
-    font-size: 20px;
+    background-color: #fefefe;
+    position: absolute; /* Position relative to its closest positioned ancestor */
+    top: 30%; /* Move the top edge of the element to the vertical midpoint */
+    left: 50%; /* Move the left edge of the element to the horizontal midpoint */
+    transform: translate(-50%, -50%); /* Center the element precisely */
+    padding: 10px; /* Adjust padding as needed */
+    width: 150px; /* Set width to 100px */
+    max-width: 100%; /* Maximum width */
+    border: 1px solid #888;
+    border-radius: 10px; /* Rounded corners */
+    text-align:center; /* Center text horizontally */
+    font-weight: bold;
 }
 
-#popup-messageFinal {
-    white-space: nowrap; /* Prevents text from wrapping */
-    overflow: hidden; /* Hides any content that overflows the max-width */
 }
 .close-buttonFinal {
     color: #aaa;
