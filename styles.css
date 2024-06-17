@@ -127,8 +127,8 @@ body {
 
 @media (max-width: 600px) {
 .keyboard .key {
-    width: 35px;
-    height: 54px;
+    width: 8vw;
+    height: 7vh;
     margin: 0 2.5px;
     background-color: #7c7c7c;
     font-size: 1rem;
