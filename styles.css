@@ -351,13 +351,3 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-
-.reload-button{
-    background-color: #121212;
-    color: #fff;
-    border: none;
-    padding: 10px 10px;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 5px;
-}
