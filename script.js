@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (allCorrect) {
             gameEnded = true;
-            showPopupFinal('Congratulations! You guessed the word correctly.');
+            showPopupFinal('CONGRATS!');
         } else if (currentRow === 6 && !allCorrect) {
             gameEnded = true;
             showPopupFinal(`The Word was "${word}"`);
