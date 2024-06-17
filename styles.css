@@ -151,7 +151,7 @@ body {
 
 @media (max-width: 600px) {
     .keyboard .key.large {
-        width: 65px;
+        width: 60px;
         font-size:2ch;
     }
 }
