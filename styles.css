@@ -59,12 +59,12 @@ body {
 }
 
 .board {
-    margin-top: 70px;
+    margin-top: 55px;
     display: grid;
     grid-template-columns: repeat(5, 60px);
     grid-gap: 8px;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color:white;
     font-weight: bold;
 }
