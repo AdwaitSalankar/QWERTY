@@ -265,7 +265,7 @@ body {
 
 .popup-contenthow {
     background-color: #1c1c1c;
-    margin: 15% auto;
+    margin: 7% auto;
     padding: 20px;
     border: 1px solid #1c1c1c;
     width: 100%;
@@ -281,7 +281,7 @@ body {
 @media (max-width: 600px) {
     .popup-contenthow {
         background-color: #1c1c1c;
-        margin: 20% auto;
+        margin: 30% auto;
         padding: 20px;
         border: 1px solid #1c1c1c;
         width: 100%;
