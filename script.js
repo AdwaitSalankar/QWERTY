@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const word = 'hello'; // Example word, this can be generated or selected dynamically
     let currentGuess = '';
     let currentRow = 0;
     let gameEnded = false;
     let validWords = [];
+    let word = '';
 
     const board = document.querySelector('.board');
     const keyboard = document.querySelector('.keyboard');
@@ -20,6 +20,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await fetch('./one_line.txt'); // Adjust the path to your file
         const text = await response.text();
         validWords = text.split('\n').map(word => word.trim().toLowerCase());
+
+        word = validWords[Math.floor(Math.random() * validWords.length)];
+        alert(`The chosen word is: ${word}`);
+        
     } catch (error) {
         alert('Failed to load the list of valid words');
     }
@@ -198,4 +202,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         popupMessageFinal.textContent = message;
         popupFinal.style.display = 'block';
     }
+
+    document.getElementById('reload-button').addEventListener('click', function() {
+        location.reload();
+    });
 });
