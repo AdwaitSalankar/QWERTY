@@ -69,7 +69,7 @@ body {
     font-weight: bold;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .board {
         margin-top: 50px;
         display: grid;
@@ -95,9 +95,9 @@ body {
     background-color: #121212;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .board .tile {
-        width: 10vw;
+        width: 11vw;
         height: 7vh;
         border: 1px solid #4c4c4c;
         display: flex;
