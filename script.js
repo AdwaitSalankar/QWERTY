@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             showPopupFinal('CONGRATS!');
         } else if (currentRow === 6 && !allCorrect) {
             gameEnded = true;
-            showPopupFinal(`The Word was "${word}"`);
+            showPopupFinal(`The Word was "${word.toUpperCase()}"`);
         }
     }
 
