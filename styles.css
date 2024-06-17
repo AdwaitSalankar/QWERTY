@@ -65,8 +65,22 @@ body {
     grid-gap: 8px;
     justify-content: center;
     margin-bottom: 34px;
-    color:white;
+    color: white;
     font-weight: bold;
+}
+
+@media (max-width: 450px) {
+    .board {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(5, 8vw);
+        grid-template-rows: repeat(6, 6vh);
+        grid-gap: 2.5vh;
+        justify-content: center;
+        margin-bottom: 34px;
+        color:white;
+        font-weight: bold;
+    }
 }
 
 .board .tile {
@@ -79,6 +93,20 @@ body {
     font-size: 2rem;
     text-transform: uppercase;
     background-color: #121212;
+}
+
+@media (max-width: 450px) {
+    .board .tile {
+        width: 10vw;
+        height: 7vh;
+        border: 1px solid #4c4c4c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        background-color: #121212;
+    }   
 }
 
 .board .tile.correct {
