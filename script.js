@@ -202,8 +202,4 @@ document.addEventListener('DOMContentLoaded', async () => {
         popupMessageFinal.textContent = message;
         popupFinal.style.display = 'block';
     }
-
-    document.getElementById('reload-button').addEventListener('click', function() {
-        location.reload();
-    });
 });
