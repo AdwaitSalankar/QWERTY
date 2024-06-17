@@ -335,7 +335,6 @@ body {
     font-weight: bold;
 }
 
-}
 .close-buttonFinal {
     color: #aaa;
     position: absolute;
@@ -351,4 +350,14 @@ body {
     color: #636363;
     text-decoration: none;
     cursor: pointer;
+}
+
+.reload-button{
+    background-color: #121212;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
 }
