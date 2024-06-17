@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         validWords = text.split('\n').map(word => word.trim().toLowerCase());
 
         word = validWords[Math.floor(Math.random() * validWords.length)];
-        alert(`The chosen word is: ${word}`);
         
     } catch (error) {
         alert('Failed to load the list of valid words');
